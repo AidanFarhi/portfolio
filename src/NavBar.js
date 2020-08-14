@@ -8,8 +8,11 @@ function NavBar() {
     return(
         <div className='nav-bar'>
             <img id='face' src={face} alt='Aidan'/>
-            <Link className='link' to='/home'>home</Link>
-            <Link className= 'link' to='/skills'>skills</Link>
+            <h2>Aidan Farhi</h2>
+            <hr/>
+            <h3>Full-Stack Web Developer</h3>
+            <Link className='link' to='/projects'>Projects</Link>
+            <Link className= 'link' to='/skills'>Skills</Link>
         </div>
     )
 }
