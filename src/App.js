@@ -1,40 +1,16 @@
-import React from 'react';
-import Sidebar from './components/Sidebar'
-import Projects from './components/Projects'
-import About from './components/About'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
+import React from 'react'
+import Routes from './Routes'
+import NavBar from './NavBar'
 
-
-class App extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      rendering: 'projects'
-    }
-  }
-
-  switchPage = (str) => {
-    const newPage = str
-    this.setState({
-      rendering: newPage
-    })
-  }
-  
-  render() {
-    const page = this.state.rendering
-    console.log(page)
-    return (
-      <div>
-        <Sidebar onClick={this.switchPage}/>
-        {page === 'projects' ? <Projects /> : null}
-        {page === 'skills' ? <Skills /> : null}
-        {page === 'about' ? <About /> : null}
-        {page === 'contact' ? <Contact /> : null}
-      </div>
-    )
-  }
+function App(props) {
+  return (
+    <div>
+    {/* Header */}
+    <NavBar />
+    <Routes />
+    </div>
+    
+  )
 }
 
-
-export default App;
+export default App

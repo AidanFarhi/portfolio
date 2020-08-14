@@ -1,13 +1,9 @@
 import React from 'react'
 
-class Skills extends React.Component {
-    render() {
-        return (
-            <div>
-                Skills
-            </div>
-        )
-    }
+export default function Skills() {
+    return (
+        <div className='main'>
+            These are my Skills
+        </div>
+    )
 }
-
-export default Skills
