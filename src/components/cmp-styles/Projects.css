@@ -28,5 +28,5 @@
 
 .project-item>img:hover {
     background-color: lightgray;
-    transition: all .7s ease;
+    transition: all .4s ease;
 }
