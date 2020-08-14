@@ -9,17 +9,18 @@ export default function Projects() {
             <div className='project-item'>
                 <p>project description goes here</p>
                 <img alt='test' src={sample}/>
+                <div>images of tech used</div>
             </div>
             <div className='project-item'>
-            <p>project description goes here</p>
+                <p>project description goes here</p>
                 <img alt='test' src={sample}/>
             </div>
             <div className='project-item'>
-            <p>project description goes here</p>
+                <p>project description goes here</p>
                 <img alt='test' src={sample}/>
             </div>
             <div className='project-item'>
-            <p>project description goes here</p>
+                <p>project description goes here</p>
                 <img alt='test' src={sample}/>
             </div>
         </div>
