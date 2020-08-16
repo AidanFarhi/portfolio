@@ -1,6 +1,6 @@
 import React from 'react'
 import {Route, Switch} from 'react-router-dom'
-import {Projects, Skills} from './components'
+import {Projects, Skills, Resume} from './components'
 
 class Routes extends React.Component {
 
@@ -9,6 +9,7 @@ class Routes extends React.Component {
             <Switch>
                 <Route path='/projects' component={Projects}/>
                 <Route path='/skills' component={Skills} />
+                <Route path='/resume' component={Resume} />
             </Switch>
         )
     }

@@ -7,12 +7,17 @@
 }
 
 #project-header {
-    margin-left: 23%;
+    margin-left: 4%;
+    /* margin-left: 13% */
+    /* text-align: center; */
     border-bottom: 1px solid lightgrey;
+    width: 40%;
+    color: rgb(92, 92, 92);
 }
 
 .project-item {
-    margin-left: 23%;
+    font-size: large;
+    margin-left: 13%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,6 +26,10 @@
     margin-bottom: 20px;
     border-bottom: 1px solid lightgray;
     padding: 10px;
+}
+
+.description>p {
+    color: grey;
 }
 
 .project-image {
@@ -36,8 +45,8 @@
 }
 
 .icons>img {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     margin-top: 10px;
     border-radius: 7px;
     margin-right: 5px;

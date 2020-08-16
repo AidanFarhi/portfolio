@@ -12,6 +12,8 @@ function NavBar() {
             <p id='title'>Full-Stack Web Developer</p>
             <Link className='link' to='/projects'>Projects</Link>
             <Link className= 'link' to='/skills'>Skills</Link>
+            <Link className= 'link' to='/resume'>Resume</Link>
+            <p id='footer'>Site powered by <span style={{color: 'lightblue'}}>React</span></p>
         </div>
     )
 }

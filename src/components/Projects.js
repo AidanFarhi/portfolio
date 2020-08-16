@@ -1,6 +1,6 @@
 import React from 'react'
 import './cmp-styles/Projects.css'
-import sample from './logo192.png'
+// import sample from './logo192.png'
 import ttt from './project-images/tic-tac-toe.png'
 import gol from './project-images/gol.png'
 import todo from './project-images/todo.png'
@@ -17,9 +17,11 @@ export default function Projects() {
             <div className='project-item'>
                 <div className='description'>
                     <h3>Tic-Tac-Toe</h3>
-                    <p>The classic game of tic-tac-toe built in React-Native</p>
+                    <p>Tic-Tac-Toe built in React-Native. Click to play.</p>
                 </div>
+                <a href='https://snack.expo.io/@aidanfarhi/tic-tac-toe' target='_blank' rel="noopener noreferrer">
                 <img className='project-image'alt='test' src={ttt}/>
+                </a>
                 <div className='icons'>
                     <img alt='icon' src={reactIcon}/>
                 </div>
@@ -27,7 +29,7 @@ export default function Projects() {
             <div className='project-item'>
             <div className='description'>
                     <h3>ToDo.React</h3>
-                    <p>A simple ToDo list app bult in React</p>
+                    <p>A simple ToDo list app built with React</p>
                 </div>
                 <img className='project-image' alt='test' src={todo}/>
                 <div className='icons'>
@@ -39,7 +41,7 @@ export default function Projects() {
             <div className='project-item'>
             <div className='description'>
                     <h3>Game of Life</h3>
-                    <p>The canonical Game of Life built in Vanilla Javascript</p>
+                    <p>The canonical Game of Life built with Vanilla Javascript</p>
                 </div>
                 <img className='project-image' alt='test' src={gol}/>
                 <div className='icons'>
@@ -47,11 +49,6 @@ export default function Projects() {
                     <img alt='icon' src={cssIcon}/>
                     <img alt='icon' src={jsIcon}/>
                 </div>
-            </div>
-            <div className='project-item'>
-                <p>project description goes here</p>
-                <img className='project-image' alt='test' src={sample}/>
-                <div className='icons'></div>
             </div>
         </div>
     )
