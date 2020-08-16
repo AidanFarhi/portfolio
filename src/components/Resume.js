@@ -23,16 +23,19 @@ export default function Resume() {
                 <p>Heroku | Adminr</p>
                 
                 <h2>Education</h2>
-                <h4>CUNY TechWorks (remote) - June-September 2020</h4>
+                <h4>CUNY TechWorks (remote) - June-Sept. 2020</h4>
                 <p>- Learned the foundations of building web and mobile applications</p>
                 <p>- Developed algorithm solving expertise</p>
                 <p>- Worked both individually and as a group to meet project deadlines</p>
 
+                <h4>Harvard CS50 Web Programming with Python and Javascript (partially completed) - 2020</h4>
+                <p>- Learned the basics of JavaScript, CSS, HTML, Python, PostgreSQL and Flask</p>
+                <p>- Built one full-stack application</p>
+
                 <h4>QCC Intro to Computer Programming - 2019</h4>
-                <p>- Learned the fundementals of</p>
-                <p>- Developed algorithm solving expertise</p>
-                <p>- Worked both individually and as a group to meet project deadlines</p>
-                
+                <p>- Learned the basics of computer programming</p>
+                <p>- Completed several projects using Python and Jupyter</p>
+
             </div>
         </div>
     )
