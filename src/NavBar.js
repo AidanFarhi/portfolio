@@ -12,8 +12,10 @@ function NavBar() {
 
     const handleClick = (page) => {
         setState({ currentPage: page })
-        console.log(state)
     }
+
+    // add global style object here
+    
 
     return(
         <div className='nav-bar'>
@@ -23,7 +25,7 @@ function NavBar() {
             <Link onClick={()=> handleClick('projects')} className='link' to='/projects'>Projects</Link>
             <Link onClick={()=> handleClick('resume')} className='link' to='/resume'>Resume</Link>
             <Link onClick={()=> handleClick('about')} className='link' to='/about'>About</Link>
-            <Link onClick={()=> handleClick('contact')} className='link' to='/contact'>Contact</Link>
+            {/* <Link onClick={()=> handleClick('contact')} className='link' to='/contact'>Contact</Link> */}
             <p id='footer'>Site powered by <span style={{color: 'lightblue'}}>React</span></p>
         </div>
     )

@@ -19,7 +19,7 @@ export default function Resume() {
                 <h4>Back-end</h4>
                 <p>Node/Express | Flask | Python | PostgreSQL</p>
                 <h4>Other</h4>
-                <p>Heroku | Adminr</p>
+                <p>Heroku | Adminer</p>
                 
                 <h2>Education</h2>
                 <h4>CUNY TechWorks (remote) - June-Sept. 2020</h4>
