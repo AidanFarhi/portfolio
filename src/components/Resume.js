@@ -11,7 +11,6 @@ export default function Resume() {
                     I am a full-stack web developer seeking full-time employment.
                     I have experience working on a team in a remote setting,
                     as well as working solo to meet project deadlines.
-
                 </p>
                 <h2>Skills</h2>
                 
