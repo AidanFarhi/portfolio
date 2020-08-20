@@ -42,11 +42,11 @@ function NavBar() {
                 to='/about'>
                 About
             </Link>
-            {/* <Link onClick={()=> handleClick('contact')} 
+            <Link onClick={()=> handleClick('contact')} 
                     className='link' 
                     to='/contact'>
                     Contact
-                </Link> */}
+                </Link>
             <p id='footer'>Site powered by <span style={{color: 'lightblue'}}>React</span></p>
         </div>
     )
