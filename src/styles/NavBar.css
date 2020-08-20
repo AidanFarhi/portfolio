@@ -1,9 +1,8 @@
 body {
-    /* background-image: url('backgound-code.png'); */
-    /* background-image: url('background-cream.png');
+    background-image: url('background-new.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%; */
+    background-size: 100%;
     margin: 0;
     padding: 0;
     background-color: rgb(228, 228, 228);
@@ -48,6 +47,10 @@ body {
 .link:hover {
     color: grey;
     transition: all .4s ease;
+}
+
+.selected {
+    color: grey;
 }
 
 #face {
