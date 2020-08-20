@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import face from './images/portfolio.jpg'
 import face2 from './images/aidan-face-2.png'
+import face3 from './images/aidan-face-3.png'
 import './styles/NavBar.css'
 
 
@@ -15,15 +16,15 @@ function NavBar() {
         setState({ currentPage: page })
     }
 
-    // useEffect(()=> {
-    //     this.setState({
-
-    //     })
-    // })
+    useEffect(()=> {
+        setState({
+            currentPage: window.location.pathname.slice(1)
+        })
+    },[])
 
     return(
         <div className='nav-bar'>
-            <img id='face' src={face2} alt='Aidan'/>
+            <img id='face' src={face3} alt='Aidan'/>
             <p id='name'>Aidan Farhi</p>
             <p id='title'>Full-Stack Web Developer</p>
             <Link onClick={()=> handleClick('projects')} 
