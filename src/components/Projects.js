@@ -1,6 +1,5 @@
 import React from 'react'
 import './cmp-styles/Projects.css'
-// import sample from './logo192.png'
 import wikiStack from './project-images/wikiStack.png'
 import ttt from './project-images/tic-tac-toe.png'
 import gol from './project-images/gol.png'
@@ -8,8 +7,9 @@ import todo from './project-images/todo.png'
 import reactIcon from './icons/react.jpeg'
 import htmlIcon from './icons/html.png'
 import jsIcon from './icons/js.png'
-// import nodeIcon from './icons/node.png' 
+import nodeIcon from './icons/node.png' 
 import cssIcon from './icons/css.jpg'
+import postG from './icons/postgresIcon.png'
 
 export default function Projects() {
     return (
@@ -18,12 +18,13 @@ export default function Projects() {
             <div className='project-item'>
                 <div className='description'>
                     <h3>WikiStack</h3>
-                    <p>An application where users can post, edit, delete and search wikipedia-style content.</p>
+                    <p>A full-stack application where users can post, edit, delete and search wikipedia-style content.</p>
                 </div>
                 <img className='project-image'alt='test' src={wikiStack}/>
                 <div className='icons'>
-                    <img alt='icon' src={cssIcon}/>
                     <img alt='icon' src={jsIcon}/>
+                    <img alt='icon' src={nodeIcon}/>
+                    <img alt='icon' src={postG}/>
                 </div>
             </div>
             <div className='project-item'>
