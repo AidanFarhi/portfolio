@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%; */
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: rgb(246, 246, 246);
@@ -34,8 +35,9 @@ body {
 #title {
     padding-top: 15px;
     padding-bottom: 40px;
-    font-size: 20px;
+    font-size: 15px;
     border-top: 1px solid whitesmoke;
+    margin-top: 8px;
 }
 
 .link {
@@ -60,8 +62,18 @@ body {
     width: 150px;
 }
 
-#footer {
-    position: fixed;
-    margin-top: 50%;
-    color: rgb(228, 228, 228);
+#contact-div {
+    text-align: center;
+    margin-top: 40%;
+
+}
+
+#contact-header {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
 }

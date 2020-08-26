@@ -32,7 +32,8 @@ function NavBar() {
             </Link>
             <Link onClick={()=> handleClick('resume')} 
                 className={state.currentPage === 'resume' ? 'link selected' : 'link'} 
-                to='/resume'>
+                to='/resume'
+                id='bottom-link'>
                 Resume
             </Link>
             <Link onClick={()=> handleClick('about')} 
@@ -40,12 +41,11 @@ function NavBar() {
                 to='/about'>
                 About
             </Link>
-            <Link onClick={()=> handleClick('contact')} 
-                    className='link' 
-                    to='/contact'>
-                    Contact
-            </Link>
-            <p id='footer'>Site powered by <span style={{color: 'lightblue'}}>React</span></p>
+            <div id='contact-div'>
+                <h3 id='contact-header'>Contact</h3>
+                <p><a href='mailto:aidanmcfarhi@gmail.com' target='_blank' rel="noopener noreferrer">aidanmcfarhi@gmail.com</a></p>
+                <p>718-333-3333</p>
+            </div>
         </div>
     )
 }

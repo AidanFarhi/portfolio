@@ -20,7 +20,9 @@ export default function Projects() {
                     <h3>Juke</h3>
                     <p>This is an audio player that lets the user pause, play, and switch songs or albums at will.</p>
                 </div>
-                <img className='project-image'alt='test' src={juke}/>
+                <a href='https://github.com/AidanFarhi/juke' target='_blank' rel="noopener noreferrer">
+                    <img className='project-image'alt='test' src={juke}/>
+                </a>
                 <div className='icons'>
                     <img alt='icon' src={jsIcon}/>
                     <img alt='icon' src={nodeIcon}/>
@@ -29,10 +31,12 @@ export default function Projects() {
             </div>
             <div className='project-item'>
                 <div className='description'>
-                    <h3>QCCpedia</h3>
+                    <h3>Wikistack</h3>
                     <p>A full-stack application where users can post, edit, delete and search wikipedia-style content.</p>
                 </div>
-                <img className='project-image'alt='test' src={wikiStack}/>
+                <a href='https://github.com/AidanFarhi/wiki-stack' target='_blank' rel="noopener noreferrer">
+                    <img className='project-image'alt='test' src={wikiStack}/>
+                </a>
                 <div className='icons'>
                     <img alt='icon' src={jsIcon}/>
                     <img alt='icon' src={nodeIcon}/>
@@ -56,7 +60,9 @@ export default function Projects() {
                     <h3>Game of Life</h3>
                     <p>The canonical Game of Life built with Vanilla Javascript</p>
                 </div>
-                <img className='project-image' alt='test' src={gol}/>
+                <a href='https://github.com/AidanFarhi/Game_of_life' target='_blank' rel="noopener noreferrer">
+                    <img className='project-image' alt='test' src={gol}/>   
+                </a>
                 <div className='icons'>
                     <img alt='icon' src={htmlIcon}/>
                     <img alt='icon' src={cssIcon}/>

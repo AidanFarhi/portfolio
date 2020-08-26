@@ -12,6 +12,7 @@ export default function Resume() {
                     I have experience working on a team in a remote setting,
                     as well as working solo to meet project deadlines.
                 </p>
+                <a href='https://github.com/AidanFarhi' target='_blank' rel="noopener noreferrer">Link to my github</a>
                 <h2>Skills</h2>
                 
                 <h4>Front-end</h4>
@@ -31,7 +32,11 @@ export default function Resume() {
                 <h4>Tech Support Fundementals (Google) - July 2020 - present</h4>
                 <p>- Learning the basics of computer assembly, OS installation, the Internet, and common problem solving methedologies.</p>
 
-                <h4>Harvard CS50 Web Programming with Python and Javascript (partially completed) - 2020</h4>
+                <h4>Algorithms Part I (Princeton) - August 2020 - present</h4>
+                <p>- Learning the essentials of algorithms and data structures, with emphasis on applications and scientific performance analysis of Java implementations.</p>
+                <p>- Main focus: Data structures, sorting, and searching algorithms.</p>
+
+                <h4>Harvard CS50 Web Programming with Python and Javascript - April-July 2020</h4>
                 <p>- Learned the basics of JavaScript, CSS, HTML, Python, PostgreSQL and Flask.</p>
                 <p>- Built one full-stack application.</p>
 
