@@ -10,8 +10,8 @@ export default function About() {
                 <p>
                     "I am a full-stack web developer with a passion for all things tech.
                     I live for the moment when a project is finally done, and I love 
-                    working on a team that crosses the finish line together. I'm a firm
-                    believer in lifelong learning, and understand that there is always
+                    working with a team that crosses the finish line together. I'm a firm
+                    believer in lifelong learning and I realize that there is always
                     something new on the horizon to add to my toolbelt."
                 </p>
             </div>
