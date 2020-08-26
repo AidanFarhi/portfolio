@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
-import face from './images/portfolio.jpg'
-import face2 from './images/aidan-face-2.png'
 import face3 from './images/aidan-face-3.png'
 import './styles/NavBar.css'
 
@@ -46,7 +44,7 @@ function NavBar() {
                     className='link' 
                     to='/contact'>
                     Contact
-                </Link>
+            </Link>
             <p id='footer'>Site powered by <span style={{color: 'lightblue'}}>React</span></p>
         </div>
     )
