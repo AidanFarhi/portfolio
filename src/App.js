@@ -1,13 +1,15 @@
 import React from 'react'
 import Routes from './Routes'
 import NavBar from './NavBar'
-import Projects from './components/Projects'
+import {Route, Redirect} from 'react-router-dom'
 
 function App() {
   return (
     <div>
     <NavBar />
-    <Projects />
+    <Route exact path='/'>
+      <Redirect to='/projects'/>
+    </Route>
     <Routes />
     </div>
   )

@@ -10,7 +10,7 @@ import jsIcon from './icons/js.png'
 import nodeIcon from './icons/node.png' 
 import cssIcon from './icons/css.jpg'
 import postG from './icons/postgresIcon.png'
-
+// test
 export default function Projects() {
     return (
         <div className='projects-main-div'>
