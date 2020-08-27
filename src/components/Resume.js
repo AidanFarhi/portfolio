@@ -29,7 +29,7 @@ export default function Resume() {
                 <p>- Built several full-stack applications.</p>
                 <p>- Developed algorithm solving expertise.</p>
 
-                <h4>Tech Support Fundementals (Google) - July 2020 - present</h4>
+                <h4>Tech Support Fundamentals (Google) - July 2020 - present</h4>
                 <p>- Learning the basics of computer assembly, OS installation, the Internet, and common problem solving methedologies.</p>
 
                 <h4>Algorithms Part I (Princeton) - August 2020 - present</h4>
