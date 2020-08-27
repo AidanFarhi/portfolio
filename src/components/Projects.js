@@ -10,7 +10,7 @@ import jsIcon from './icons/js.png'
 import nodeIcon from './icons/node.png' 
 import cssIcon from './icons/css.jpg'
 import postG from './icons/postgresIcon.png'
-// test
+
 export default function Projects() {
     return (
         <div className='projects-main-div'>
@@ -24,7 +24,7 @@ export default function Projects() {
                     <img className='project-image'alt='test' src={juke}/>
                 </a>
                 <div className='icons'>
-                    <img alt='icon' src={jsIcon}/>
+                    <img alt='icon' src={reactIcon}/>
                     <img alt='icon' src={nodeIcon}/>
                     <img alt='icon' src={postG}/>
                 </div>
