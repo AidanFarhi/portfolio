@@ -50,7 +50,7 @@ function NavBar() {
                 <div id='contact-div'>
                     <h3 id='contact-header'>Contact</h3>
                     <p><a href='mailto:aidanmcfarhi@gmail.com' target='_blank' rel="noopener noreferrer">aidanmcfarhi@gmail.com</a></p>
-                    <p>718-419-0795</p>
+                    <p>646-500-1595</p>
                 </div>
             </div>
             
