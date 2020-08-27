@@ -13,8 +13,8 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width: 23%;
-    min-width: 160px;
+    width: 21.5%;
+    min-width: 200px;
     padding-top: 10px;
     background-color: rgb(37, 37, 37);
     -webkit-box-shadow: 0px 0px 10px -1px rgba(110,104,110,0.87);
@@ -103,14 +103,10 @@ input {
   Mobile Responsive - phone
 */
 
-@media (max-width: 414px) {
+@media (max-width: 450px) {
     .nav-bar {
     color: whitesmoke;
-    /* position: fixed;
-    display: flex;
-    flex-direction: row; */
-    /* align-items: center; */
-    height: 20%;
+    height: 22.2%;
     width: 100%;
     padding-top: 10px;
     background-color: rgb(37, 37, 37);
@@ -199,7 +195,6 @@ input {
         position: absolute;
         left: 20px;
         top: 25px;
-        /* margin-right: 60%; */
     }
     
     #contact-div {
@@ -244,10 +239,12 @@ input {
     }
 
     input:checked ~ #toggle>#contact-div{
-       position: absolute;
+       position: fixed;
        left: 50%;
-       top: -220px;
-       font-size: 14px;
+       /* top: .5rem; */
+       top: -30.5%;
+       /* bottom: -40px; */
+       font-size: .2rem;
     }
 
     input:checked ~ #toggle>#links{
