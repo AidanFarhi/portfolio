@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
     <NavBar />
-    <Route exact path='/portfolio/'>
-      <Redirect to='/projects' />
+    <Route exact path='/'>
+      <Redirect to='/projects'/>
     </Route>
     <Routes />
     </div>
