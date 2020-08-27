@@ -9,10 +9,10 @@ export default function About() {
             <div id='about-me-div'>
                 <p>
                     "I am a full-stack web developer with a passion for all things tech.
-                    I live for the moment when a project is finally done, and I love 
-                    working with a team that crosses the finish line together. I'm a firm
-                    believer in lifelong learning and I realize that there is always
-                    something new on the horizon to add to my toolbelt."
+                    I love seeing a project finally come together and working with a team to 
+                    make that happen. 
+                    I'm a firm believer in lifelong learning and I realize that there is always
+                    something new to add to my toolbelt."
                 </p>
             </div>
         </div>
