@@ -8,9 +8,8 @@ export default function Resume() {
             <div id='resume'>
                 <h2>Profile</h2>
                 <p>
-                    I am a full-stack web developer seeking full-time employment.
-                    I have experience working on and leading a team 
-                    in a remote setting, as well as working solo to meet project deadlines.
+                I am a full-stack web developer enrolled in CUNY TechWorks Software Development Program. I am seeking full-time employment as a full-stack software engineer. 
+                I am currently working on and leading a team in a remote setting, as well as working solo to meet project deadlines.
                 </p>
                 <a href='https://github.com/AidanFarhi' target='_blank' rel="noopener noreferrer">Link to my github</a>
                 <h2>Skills</h2>
