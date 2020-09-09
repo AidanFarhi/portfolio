@@ -1,15 +1,11 @@
 import React from 'react'
 import './cmp-styles/Projects.css'
-import wikiStack from './project-images/wikiStack.png'
-import juke from './project-images/juke.png'
-import ttt from './project-images/tic-tac-toe.png'
-import gol from './project-images/gol.png'
+
+import leetRides from './project-images/leetRides.png'
 import reactIcon from './icons/react.jpeg'
-import htmlIcon from './icons/html.png'
-import jsIcon from './icons/js.png'
 import nodeIcon from './icons/node.png' 
-import cssIcon from './icons/css.jpg'
 import postG from './icons/postgresIcon.png'
+import expressIcon from './icons/express.jpeg'
 
 export default function Projects() {
     return (
@@ -17,56 +13,28 @@ export default function Projects() {
             <h1 id='project-header'>Projects</h1>
             <div className='project-item'>
                 <div className='description'>
-                    <h3>Juke</h3>
-                    <p>This is an audio player that lets the user pause, play, and switch songs or albums at will.</p>
+                    <h3>LeetRides</h3>
+                    <p>This is a full-stack e-commerce application that supports both registered
+                        users and guests.
+                    </p>
                 </div>
-                <a href='https://github.com/AidanFarhi/juke' target='_blank' rel="noopener noreferrer">
-                    <img className='project-image'alt='test' src={juke}/>
+                <a href='https://leetrides.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+                    <img className='project-image'alt='test' src={leetRides}/>
                 </a>
                 <div className='icons'>
                     <img alt='icon' src={reactIcon}/>
                     <img alt='icon' src={nodeIcon}/>
+                    <img alt='icon' src={expressIcon}/>
                     <img alt='icon' src={postG}/>
                 </div>
-            </div>
-            <div className='project-item'>
                 <div className='description'>
-                    <h3>Wikistack</h3>
-                    <p>A full-stack application where users can post, edit, delete and search wikipedia-style content.</p>
-                </div>
-                <a href='https://github.com/AidanFarhi/wiki-stack' target='_blank' rel="noopener noreferrer">
-                    <img className='project-image'alt='test' src={wikiStack}/>
-                </a>
-                <div className='icons'>
-                    <img alt='icon' src={jsIcon}/>
-                    <img alt='icon' src={nodeIcon}/>
-                    <img alt='icon' src={postG}/>
-                </div>
-            </div>
-            <div className='project-item'>
-                <div className='description'>
-                    <h3>Tic-Tac-Toe</h3>
-                    <p>Tic-Tac-Toe built in React-Native. Click to play.</p>
-                </div>
-                <a href='https://snack.expo.io/@aidanfarhi/tic-tac-toe' target='_blank' rel="noopener noreferrer">
-                <img className='project-image'alt='test' src={ttt}/>
-                </a>
-                <div className='icons'>
-                    <img alt='icon' src={reactIcon}/>
-                </div>
-            </div>
-            <div className='project-item'>
-            <div className='description'>
-                    <h3>Game of Life</h3>
-                    <p>The canonical Game of Life built with Vanilla Javascript</p>
-                </div>
-                <a href='https://github.com/AidanFarhi/Game_of_life' target='_blank' rel="noopener noreferrer">
-                    <img className='project-image' alt='test' src={gol}/>   
-                </a>
-                <div className='icons'>
-                    <img alt='icon' src={htmlIcon}/>
-                    <img alt='icon' src={cssIcon}/>
-                    <img alt='icon' src={jsIcon}/>
+                    <h3>Features</h3>
+                    <ul id='features'>
+                        <li>Stripe API for credit card transactions</li>
+                        <li>Inventory Search</li>
+                        <li>Guest checkout</li>
+                        <li>Ability to see each users most recent order</li>
+                    </ul>
                 </div>
             </div>
         </div>

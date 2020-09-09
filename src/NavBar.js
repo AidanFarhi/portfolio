@@ -49,7 +49,7 @@ function NavBar() {
                 </div>  
                 <div id='contact-div'>
                     <h3 id='contact-header'>Contact</h3>
-                    <p><a href='mailto:aidanmcfarhi@gmail.com' target='_blank' rel="noopener noreferrer">aidanmcfarhi@gmail.com</a></p>
+                    <p><a href='mailto:afarhidev@gmail.com' target='_blank' rel="noopener noreferrer">afarhidev@gmail.com</a></p>
                     <p>646-500-1595</p>
                 </div>
             </div>
