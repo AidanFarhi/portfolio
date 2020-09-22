@@ -8,8 +8,9 @@ export default function Resume() {
             <div id='resume'>
                 <h2>Profile</h2>
                 <p>
-                I am a full-stack web developer that strives to build useful and efficient applications that are both intuitive and user-friendly. 
-                I have worked with a team in a remote setting and worked solo to meet project deadlines.
+                I am a full-stack software engineer that strives to build useful and efficient applications that are intuitive and user-friendly. 
+                I have worked with a team in a remote setting and worked solo to meet project deadlines. 
+                I thoroughly enjoy delving deep into all areas of software engineering, both theoretically and practically.
                 </p>
                 <a href='https://github.com/AidanFarhi' target='_blank' rel="noopener noreferrer">Link to my github</a>
 
@@ -17,17 +18,15 @@ export default function Resume() {
                 <h4>Front-end</h4>
                 <p>React | JavaScript | HTML | CSS </p>
                 <h4>Back-end</h4>
-                <p>Node | Express | PostgreSQL</p>
+                <p>Node | Express | PostgreSQL | Python</p>
                 <h4>Mobile</h4>
                 <p>React-Native</p>
 
                 <h2>Education</h2>
                 <h4>CUNY TechWorks Summer Bootcamp (remote) - June 2020 - September 2020</h4>
-                <p>- Built a working knowledge of full-stack Web and Mobile development using JavaScript, React, PostgreSQL, Express, 
-                    Node and React-Native as well as gaining algorithm solving expertise.
+                <p>- Built a working knowledge of full-stack Web and Mobile development using JavaScript, React, 
+                    PostgreSQL, Express, Node and React-Native as well as gaining algorithm solving expertise.
                 </p>
-                <p>- Built several full-stack applications both solo and via pair programming.</p>
-                <p>- Collaborated with peers to solve problems.</p>
 
                 <h4>IT Support Professional (Google) - July 2020 - present</h4>
                 <p>- Training to become an IT Support Professional while learning the basics of computer assembly, 
@@ -35,18 +34,18 @@ export default function Resume() {
                     Linux and Windows, cybersecurity and system administration.
                 </p>
 
-                <h4>Algorithms Part I (Princeton) - August 2020 - present</h4>
-                <p>- Learning the essentials of algorithms and data structures, 
-                    with emphasis on applications and scientific performance analysis of Java implementations.
+                <h4>Algorithms and Data Structures in Python (Udemy) - September 2020 - present</h4>
+                <p>- Learning and implementing essential data structures including, but not limited
+                    to; linked lists, trees, heaps, graphs, stacks, queues, as well as the accompanying searching, 
+                    sorting, path finding, and other algorithms in Python.
                 </p>
-                <p>- Main focus: Data structures, sorting, and searching algorithms.</p>
 
-                <h4>Computer Science: Programming with a Purpose (Princeton) - September 2020 - present</h4>
+                {/* <h4>Computer Science: Programming with a Purpose (Princeton) - September 2020 - present</h4>
                 <p>- Gaining knowledge in variables, conditionals, 
                     loops, arrays, I/O, functions, recursion, 
                     modular programming, code reuse, 
                     and object-oriented programming in Java.
-                </p>
+                </p> */}
 
                 <h4>Intro to Computer Programming (Queensborough Community College) - 2019</h4>
                 <p>- Developed a knowledge of Python and computer programming 

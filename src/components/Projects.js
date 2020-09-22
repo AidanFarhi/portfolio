@@ -1,7 +1,7 @@
 import React from 'react'
 import './cmp-styles/Projects.css'
 
-import leetRides from './project-images/leetRides.png'
+import leetRides from './project-images/leet-rides-new.png'
 import reactIcon from './icons/react.jpeg'
 import nodeIcon from './icons/node.png' 
 import postG from './icons/postgresIcon.png'
@@ -33,7 +33,6 @@ export default function Projects() {
                         <li>Stripe API for credit card transactions</li>
                         <li>Inventory Search</li>
                         <li>Guest checkout</li>
-                        <li>Ability to see each users most recent order</li>
                     </ul>
                 </div>
             </div>
