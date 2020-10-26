@@ -8,10 +8,11 @@ export default function About() {
             <h1 id='about-me-header'>About Me</h1>
             <div id='about-me-div'>
                 <p>
-                    "I am a software engineer that labors to build applications that
-                    are not only efficient, practical and useful, but simple and intutive for the user.
-                    I am a firm beliver in life-long learning, and am always willing and able to
-                    absorb new technologies and methods, whenever possible."
+                    "I am a software engineer that loves tinkering, building, and learning new things.
+                    I believe software should be intuitive and enjoyable for the user and straightforward
+                    as possible for the engineer.
+                    I currently live in Brooklyn, NY, but am actively seeking employment and will happily
+                    relocate."
                 </p>
             </div>
         </div>
