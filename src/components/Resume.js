@@ -10,8 +10,7 @@ export default function Resume() {
                 <p>
                 I am a software engineer that strives to build efficient applications that are both intuitive and user-friendly. 
                 I thrive in a team-oriented environment and fully embrace all the joys and challenges of building software. 
-                I love diving deep into all areas of software engineering, and am looking to break into the feild as a full-stack engineer or
-                a data engineer.
+                My current focus is Big Data and Data Engineering.
                 </p>
                 <a href='https://github.com/AidanFarhi' target='_blank' rel="noopener noreferrer">Link to my github</a>
 
